@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+   
+           display: flex;
+           gap: 20px;
+          
+        }
+        .flex{
+            background-color: blueviolet;
+            border-radius: 10px;
+
+        }
+        @media screen and (max-width:576px) {
+
+             .container{
+                flex-direction: column;
+                padding-top: 20px;
+                width: 50%;
+             }
+        }
+    </style>
+</head>
+<body>
+    <h2>Flexible flex</h2>
+    <div class="container">
+        <div class="flex"> 
+            <h3>First Box</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt et aspernatur alias dolore neque iusto quam odit modi voluptates explicabo cum eaque pariatur aliquid officiis, aut nemo nihil adipisci ducimus?</p>
+        </div>
+        <div class="flex"> 
+            <h3>Second Box</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt et aspernatur alias dolore neque iusto quam odit modi voluptates explicabo cum eaque pariatur aliquid officiis, aut nemo nihil adipisci ducimus?</p>
+        </div>
+    </div>
+    
+   
+</body>
+</html>
